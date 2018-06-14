@@ -1,0 +1,16 @@
+{
+    "name": "idist/image_",
+    "description": "project used to check type of image",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^7.3@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {"IDisT\\ImageChecker\\": "src"}
+    }
+}
